@@ -1,0 +1,67 @@
+::root{
+    --background: #f12711;  /* fallback for old browsers */
+    --background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    --background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid;
+    border-radius: none;
+}
+
+.Product_rating{
+    display: flex;
+}
+
+.product_price{
+    margin-top: 5px;
+}
+
+.product_info{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.toprofile{
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);    
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+}
+
+.tocart{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);    
+    border-radius: 20px;
+    border-color: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    border: 1px solid linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+}
+
+
+.tocart:hover{ 
+    background-position: right center; 
+}
+
+
+.rateIcon{
+    color: orange !important;
+}
